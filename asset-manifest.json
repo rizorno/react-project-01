@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-project-01/static/css/main.057f83cd.css",
+    "main.css": "/react-project-01/static/css/main.0c17ad4f.css",
     "main.js": "/react-project-01/static/js/main.edd43754.js",
     "static/media/auth-d-bg@2x.png": "/react-project-01/static/media/auth-d-bg@2x.c57cd5d0e401601eebd2.png",
     "static/media/report-d-bg@2x.png": "/react-project-01/static/media/report-d-bg@2x.128b63cdd3693a274bac.png",
@@ -45,11 +45,11 @@
     "static/media/change.svg": "/react-project-01/static/media/change.a50d542940cc3803d4ca.svg",
     "static/media/balance_vector_l.svg": "/react-project-01/static/media/balance_vector_l.ed65ae738f78a2df12fa.svg",
     "static/media/balance_vector_r.svg": "/react-project-01/static/media/balance_vector_r.4a8e7df3679a8f6d1fe7.svg",
-    "main.057f83cd.css.map": "/react-project-01/static/css/main.057f83cd.css.map",
+    "main.0c17ad4f.css.map": "/react-project-01/static/css/main.0c17ad4f.css.map",
     "main.edd43754.js.map": "/react-project-01/static/js/main.edd43754.js.map"
   },
   "entrypoints": [
-    "static/css/main.057f83cd.css",
+    "static/css/main.0c17ad4f.css",
     "static/js/main.edd43754.js"
   ]
 }
