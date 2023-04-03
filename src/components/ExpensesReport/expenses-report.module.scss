@@ -1,0 +1,132 @@
+.expensesReportBox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.expensesReportTitle {
+  width: 130px;
+  height: 20px;
+
+  background-color: transparent;
+  color: #000000;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.expensesReportBtnLeft,
+.expensesReportBtnRight {
+  width: 10px;
+  height: 15px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.expensesReportBtnLeft {
+  background-image: url('../../images/icons/balance_vector_l.svg');
+}
+
+.expensesReportBtnRight {
+  background-image: url('../../images/icons/balance_vector_r.svg');
+}
+
+.expensesReportSpan {
+  color: #ff751d;
+}
+
+.expensesReportDetails {
+  color: rgba(82, 85, 95, 0.7);
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: 0.02em;
+  text-align: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.expensesReportList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+
+  @media screen and (min-width: 767px) {
+    width: 624px;
+
+    row-gap: 40px;
+
+    margin: 0 auto;
+  }
+}
+
+.expensesReportItem {
+  flex-basis: calc(100% / 3);
+  min-width: 93px;
+  max-width: 104px;
+
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #e0e5eb;
+
+  @media screen and (min-width: 767px) {
+    padding-bottom: 0;
+
+    border-bottom: none;
+  }
+}
+
+.expensesReportValue,
+.expensesReportText {
+  color: #52555f;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+}
+
+.expensesReportValue {
+  margin-bottom: 7px;
+}
+
+.expensesReportText {
+  margin-top: 7px;
+}
+
+.expensesReportActiveCategory {
+  fill: #ff751d;
+}
+
+svg:hover,
+svg:focus {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  fill: #ff751d;
+
+  cursor: pointer;
+}

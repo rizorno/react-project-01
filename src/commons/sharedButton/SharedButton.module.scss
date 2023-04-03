@@ -1,0 +1,45 @@
+.button {
+  width: 116px;
+  height: 44px;
+
+  background-color: #f5f6fb;
+  color: #52555f;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+
+  display: block;
+
+  padding: 12px 15px;
+
+  border-radius: 16px;
+  border: none;
+  outline: none;
+
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%),
+    0 3px 1px -2px rgb(0 0 0 / 20%);
+
+  &:hover {
+    background: #ff751d;
+    color: #ffffff;
+
+    cursor: pointer;
+  }
+
+  &-active {
+    background: #ff751d;
+    color: #ffffff;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 125px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 136px;
+  }
+}

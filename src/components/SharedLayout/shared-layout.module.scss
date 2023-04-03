@@ -1,0 +1,100 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 13px 20px;
+
+  @media screen and (min-width: 768px) {
+    padding: 13px 32px;
+  }
+}
+
+.header-userName {
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f5f6fa;
+  color: #52555f;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: 0.04em;
+
+  border-radius: 50%;
+
+  margin-right: 16px;
+}
+
+.header-userEmail {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+
+    color: #52555f;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.167;
+    letter-spacing: 0.04em;
+
+    &::after {
+      content: '';
+
+      width: 1px;
+      height: 20px;
+
+      background-color: #e0e5eb;
+
+      display: inline-block;
+
+      margin: 0 20px;
+    }
+  }
+}
+
+.header-exit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-buttonLogout {
+  width: 16px;
+  height: 16px;
+
+  font-size: 0;
+
+  background-image: url('../../images/logout-header.svg');
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  outline: none;
+
+  border: none;
+
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    width: auto;
+    height: auto;
+
+    background-image: none;
+
+    color: #52555f;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.167;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+  }
+}

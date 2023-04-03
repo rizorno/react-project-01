@@ -1,0 +1,113 @@
+.authFormBox {
+  width: 280px;
+
+  background-color: #ffffff;
+
+  padding: 40px 20px;
+
+  border-radius: 30px;
+
+  box-shadow: 5px 10px 20px rgba(170, 178, 197, 0.4);
+
+  @media screen and (min-width: 768px) {
+    width: 430px;
+
+    padding: 55px 83px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: calc(100vh - 190px);
+  }
+}
+
+.authFormBtnBox {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.googleLoginBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.googleLoginBtn {
+  width: 120px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+}
+
+.googleLogo {
+  width: 18px;
+  height: 18px;
+
+  background-image: url('../../images/authorization/google.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin-right: 10px;
+}
+
+.authFormText {
+  color: #52555f;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: 0.04em;
+  text-align: center;
+
+  margin: 20px 0;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.147;
+    letter-spacing: 0.04em;
+
+    margin-top: 20px;
+    margin-bottom: 12px;
+
+    span {
+      color: red;
+    }
+  }
+}
+
+.authFormInput {
+  background-color: #a6abb9;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.167;
+  letter-spacing: 0.04em;
+
+  padding: 17px 19px;
+
+  border-radius: 30px;
+  border: none;
+  outline: none;
+
+  &::placeholder {
+    color: #a6abb9;
+  }
+}
+
+.requiredText {
+  color: red;
+  font-size: 10px;
+}
+
+.authFormSubmitBtn {
+  margin: 20px auto 0;
+
+  border-radius: 25px;
+}

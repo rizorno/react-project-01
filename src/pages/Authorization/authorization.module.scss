@@ -1,0 +1,94 @@
+.auth-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 86px 20px 105px;
+  margin: 0 auto;
+
+  background-image: url('../../images/authorization/mobile/auth-m-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (min-device-pixel-ration: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../../images/authorization/mobile/auth-m-bg@2x.png');
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 80px 20px 155px 171px;
+    background-image: url('../../images/authorization/tablet/auth-t-bg.png');
+
+    @media (min-device-pixel-ration: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('../../images/authorization/tablet/auth-t-bg@2x.png');
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 157px;
+
+    padding: 117px 91px 125px 20px;
+    margin: 0;
+
+    background-image: url('../../images/authorization/desktop/auth-d-bg.png');
+
+    @media (min-device-pixel-ration: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('../../images/authorization/desktop/auth-d-bg@2x.png');
+    }
+  }
+}
+
+.auth-logo {
+  width: 183px;
+  height: 63px;
+
+  background-image: url('../../images/authorization/mobile/auth-m-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  margin-bottom: 50px;
+
+  @media (min-device-pixel-ration: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../../images/authorization/mobile/auth-m-logo@2x.png');
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 307px;
+    height: 101px;
+
+    margin-bottom: 80px;
+
+    background-image: url('../../images/authorization/tablet/auth-t-logo.png');
+
+    @media (min-device-pixel-ration: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('../../images/authorization/tablet/auth-t-logo@2x.png');
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 377px;
+    height: 139px;
+
+    margin-bottom: 0;
+
+    background-image: url('../../images/authorization/desktop/auth-d-logo.png');
+
+    @media (min-device-pixel-ration: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('../../images/authorization/desktop/auth-d-logo@2x.png');
+    }
+  }
+}

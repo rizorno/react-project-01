@@ -1,0 +1,67 @@
+.currentPeriodContainer {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.currentPeriodTitle {
+  color: rgba(82, 85, 95, 0.7);
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: 0.04em;
+  align-items: center;
+  text-align: center;
+
+  display: inline-block;
+
+  margin-bottom: 5px;
+}
+
+.currentPeriodBox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currentPeriodCalendar {
+  width: 130px;
+  height: 20px;
+
+  background-color: transparent;
+  color: #000;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.currentPeriodBtnLeft,
+.currentPeriodBtnRight {
+  width: 10px;
+  height: 15px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.currentPeriodBtnLeft {
+  background-image: url('../../images/icons/balance_vector_l.svg');
+}
+
+.currentPeriodBtnRight {
+  background-image: url('../../images/icons/balance_vector_r.svg');
+}

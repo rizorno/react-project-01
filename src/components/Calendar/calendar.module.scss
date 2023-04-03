@@ -1,0 +1,50 @@
+.calendar-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+   padding-bottom: 0;
+  }
+
+  @media screen and (min-width: 1280px) {
+   padding-top: 5px;
+ }
+}
+
+.calendar-icon {
+  min-width: 20px;
+  height: 20px;
+
+  background-image: url('../../images/icons/calendar.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.calendar-input {
+  max-width: 74px;
+  height: 40px;
+
+  background-color: transparent;
+  color: #52555f;
+
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 1.167;
+
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  padding: 0;
+
+  border-color: transparent;
+
+  outline: none;
+
+  cursor: pointer;
+}

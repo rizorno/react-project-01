@@ -1,0 +1,300 @@
+.mainBox {
+  background-image: url('../../images/report/mobile/report-m-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+
+  @media (min-device-pixel-ration: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../../images/report/mobile/report-m-bg@2x.png');
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: url('../../images/report/tablet/report-t-bg.png');
+    background-size: 100%;
+    background-position: center;
+
+    @media (min-device-pixel-ration: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('../../images/report/tablet/report-t-bg@2x.png');
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: 955px;
+
+    background-image: url('../../images/report/desktop/report-d-bg.png');
+    background-size: 100%;
+    background-position: bottom;
+
+    @media (min-device-pixel-ration: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('../../images/report/desktop/report-d-bg@2x.png');
+    }
+  }
+}
+
+.sectionBalance,
+.sectionTotal,
+.sectionStatistic,
+.sectionChart {
+  padding: 0 20px;
+
+  @media screen and (min-width: 767px) {
+    padding: 0 32px;
+  }
+}
+
+.balanceBox,
+.totalBox,
+.statisticBox,
+.chartBox {
+  margin: 0 auto;
+
+  @media screen and (min-width: 767px) {
+    width: 704px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1034px;
+  }
+}
+
+//? Section - Balance
+
+.sectionBalance {
+  padding-top: 16px;
+
+  @media screen and (min-width: 767px) {
+    padding-top: 40px;
+  }
+}
+
+.balanceBox {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.balanceLinkHome {
+  width: 150px;
+
+  color: #000000;
+
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+
+  margin-right: auto;
+  margin-bottom: 14px;
+
+  cursor: pointer;
+
+  @media screen and (min-width: 767px) {
+    margin: 0;
+  }
+
+  &::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+
+    background-image: url('../../images/icons/balance_backspace.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin-right: 5px;
+  }
+}
+
+.balanceFlexBox {
+  text-align: center;
+
+  @media screen and (min-width: 767px) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.balanceWrapperMargin {
+  margin-top: 40px;
+
+  @media screen and (min-width: 767px) {
+    margin-top: 0;
+    margin-right: 100px;
+  }
+}
+
+//? Section - Total
+
+.sectionTotal {
+  padding-top: 40px;
+}
+
+.totalBox {
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 20px 10px;
+
+  box-shadow: 5px 10px 20px rgba(170, 178, 197, 0.4);
+  border-radius: 20px;
+
+  @media screen and (min-width: 767px) {
+    gap: 40px;
+
+    padding: 15px 10px;
+
+    border-radius: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1100px;
+
+    margin: 0 auto;
+  }
+}
+
+.totalExpenseTitle,
+.totalIncomeTitle {
+  color: #52555f;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.04em;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc((100% - 20px) / 2);
+
+  @media screen and (min-width: 767px) {
+    flex-direction: row;
+  }
+}
+
+.totalExpenseTitle {
+  position: relative;
+
+  justify-content: flex-end;
+
+  &::after {
+    content: '';
+    width: 1px;
+    height: 70px;
+
+    position: absolute;
+    top: -15px;
+    left: 100%;
+
+    background-color: #e0e5eb;
+
+    margin-left: 10px;
+
+    @media screen and (min-width: 767px) {
+      height: 36px;
+      top: -10px;
+
+      margin-left: 20px;
+    }
+  }
+}
+
+.totalExpenseAmount {
+  color: #e53935;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.04em;
+
+  margin-top: 5px;
+
+  @media screen and (min-width: 767px) {
+    padding-left: 15px;
+    margin: 0;
+  }
+}
+
+.totalIncomeAmount {
+  color: #407946;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.04em;
+
+  margin-top: 5px;
+
+  @media screen and (min-width: 767px) {
+    padding-left: 15px;
+    margin: 0;
+  }
+}
+
+//? Section - Statistic
+
+.sectionStatistic {
+  padding-top: 40px;
+}
+
+.statisticBox {
+  background-color: #ffffff;
+
+  text-align: center;
+
+  padding-top: 20px;
+
+  @media screen and (min-width: 767px) {
+    padding: 20px 40px;
+
+    box-shadow: 0px 10px 60px rgba(170, 178, 197, 0.2);
+    border-radius: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1100px;
+  }
+}
+
+//? Section - Chart
+
+.sectionChart {
+  padding-top: 16px;
+  padding-bottom: 50px;
+
+  @media screen and (min-width: 767px) {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+}
+
+.chartBox {
+  background-color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    padding: 20px 35px;
+
+    box-shadow: 0px 10px 60px rgba(170, 178, 197, 0.2);
+    border-radius: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1100px;
+
+    margin: 0 auto;
+  }
+}
