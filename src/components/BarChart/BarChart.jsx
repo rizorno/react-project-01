@@ -84,8 +84,9 @@ const BarChart = () => {
                   width: 2,
                 },
               },
+              _custom: 'end',
               x: {
-                suggestedMax: labelsValue[0] * 1.1,
+                suggestedMax: labelsValue[0] * 1.15,
                 grid: {
                   display: false,
                   color: '#F5F6FB',
@@ -98,6 +99,10 @@ const BarChart = () => {
                   display: false,
                   maxTicksLimit: 20,
                   count: labelsValue[0] / 150,
+                  backdropPadding: {
+                    x: 100,
+                    y: 4,
+                  },
                 },
                 border: {
                   display: false,
@@ -110,6 +115,10 @@ const BarChart = () => {
                 anchor: 'end',
                 color: '#52555F',
                 clamp: true,
+                // eslint-disable-next-line no-dupe-keys
+                anchor: 'end',
+                // eslint-disable-next-line no-dupe-keys
+                align: 'end',
                 clip: true,
                 labels: {
                   title: {
