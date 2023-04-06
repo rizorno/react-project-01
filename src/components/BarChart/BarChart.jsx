@@ -78,7 +78,6 @@ const BarChart = () => {
                     weight: 400,
                     lineHeight: 1.167,
                   },
-                  padding: 4,
                 },
                 border: {
                   color: '#F5F6FB',

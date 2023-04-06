@@ -54,18 +54,12 @@ const BalancePanel = () => {
                   minimumFractionDigits: 2,
                   maximumFractionDigits: 2,
                 })}
-                {balanceAuth === 0 && (
+                {currentBalance === 0 && (
                   <span
-                    data="You can't spend money until you have it :)"
-                    className={css.balanceClue2}
-                  >
-                    <span
-                      data-title="Hello! To get started, enter the current balance of your account!"
-                      className={css.balanceClue}
-                    >
-                      _
-                    </span>
-                  </span>
+                    data-title="Hello! To get started, enter the current balance of your account!
+                    You can't spend money until you have it :)"
+                    className={css['balance-messageStart']}
+                  ></span>
                 )}
               </p>
               <button
@@ -96,18 +90,11 @@ const BalancePanel = () => {
               minimumFractionDigits: 2,
               maximumFractionDigits: 2,
             })}
-            {balanceAuth === 0 && (
+            {currentBalance === 0 && (
               <span
-                data="You can't spend money until you have it :)"
-                className={css['noteReports']}
-              >
-                <span
-                  data-title="Hello! To get started, enter the current balance of your account!"
-                  className={css['messageReport']}
-                >
-                  _
-                </span>
-              </span>
+                data-title="Hello! To get started, enter the current balance of your account!"
+                className={css['balance-messageStart']}
+              ></span>
             )}
           </p>
         </div>
