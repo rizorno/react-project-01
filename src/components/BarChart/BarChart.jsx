@@ -84,7 +84,6 @@ const BarChart = () => {
                   width: 2,
                 },
               },
-              _custom: 'end',
               x: {
                 suggestedMax: labelsValue[0] * 1.15,
                 grid: {
