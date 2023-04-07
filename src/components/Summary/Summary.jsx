@@ -48,12 +48,14 @@ const Summary = () => {
     );
   };
 
+  const year = new Date().toISOString().slice(0, 4);
+
   return (
     <div className={css['summary-container']}>
       {location.pathname === '/incomes' ? (
-        <p className={css['summary-title']}>Incomes</p>
+        <p className={css['summary-title']}>Incomes - {year}</p>
       ) : (
-        <p className={css['summary-title']}>Expenses</p>
+        <p className={css['summary-title']}>Expenses - {year}</p>
       )}
 
       <ul className={css['summary-list']}>{summaryData()}</ul>
