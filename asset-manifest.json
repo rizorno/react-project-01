@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-project-01/static/css/main.0e43633f.css",
-    "main.js": "/react-project-01/static/js/main.478ea67d.js",
+    "main.css": "/react-project-01/static/css/main.56f8568a.css",
+    "main.js": "/react-project-01/static/js/main.62cc0aa6.js",
     "static/media/auth-d-bg@2x.png": "/react-project-01/static/media/auth-d-bg@2x.c57cd5d0e401601eebd2.png",
     "static/media/report-d-bg@2x.png": "/react-project-01/static/media/report-d-bg@2x.128b63cdd3693a274bac.png",
     "static/media/auth-t-bg@2x.png": "/react-project-01/static/media/auth-t-bg@2x.a0497714ad153d2e8429.png",
@@ -45,11 +45,11 @@
     "static/media/change.svg": "/react-project-01/static/media/change.a50d542940cc3803d4ca.svg",
     "static/media/balance_vector_l.svg": "/react-project-01/static/media/balance_vector_l.ed65ae738f78a2df12fa.svg",
     "static/media/balance_vector_r.svg": "/react-project-01/static/media/balance_vector_r.4a8e7df3679a8f6d1fe7.svg",
-    "main.0e43633f.css.map": "/react-project-01/static/css/main.0e43633f.css.map",
-    "main.478ea67d.js.map": "/react-project-01/static/js/main.478ea67d.js.map"
+    "main.56f8568a.css.map": "/react-project-01/static/css/main.56f8568a.css.map",
+    "main.62cc0aa6.js.map": "/react-project-01/static/js/main.62cc0aa6.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e43633f.css",
-    "static/js/main.478ea67d.js"
+    "static/css/main.56f8568a.css",
+    "static/js/main.62cc0aa6.js"
   ]
 }
